@@ -505,9 +505,9 @@
   MdeModulePkg/Universal/Console/TerminalDxe/TerminalDxe.inf
 
   #
-  # Framebuffer Gop
+  # PlatformGopPolicy
   #
-  CorebootPayloadPkg/FbGop/FbGop.inf
+  CorebootPayloadPkg/PlatformGopPolicy/PlatformGopPolicy.inf
 
   #------------------------------
   #  Build the shell
