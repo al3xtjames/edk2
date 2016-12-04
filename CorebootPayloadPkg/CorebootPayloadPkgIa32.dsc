@@ -491,6 +491,11 @@
   MdeModulePkg/Universal/SerialDxe/SerialDxe.inf
 
   #
+  # DataHubDxe
+  #
+  IntelFrameworkModulePkg/Universal/DataHubDxe/DataHubDxe.inf
+
+  #
   # Console Support
   #
   MdeModulePkg/Universal/Console/ConPlatformDxe/ConPlatformDxe.inf
