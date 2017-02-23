@@ -264,7 +264,7 @@
 #
 ################################################################################
 [PcdsFeatureFlag]
-  gEfiMdeModulePkgTokenSpaceGuid.PcdStatusCodeUseSerial|TRUE
+  gEfiMdeModulePkgTokenSpaceGuid.PcdStatusCodeUseSerial|FALSE
   gEfiMdeModulePkgTokenSpaceGuid.PcdStatusCodeUseMemory|FALSE
   gEfiMdeModulePkgTokenSpaceGuid.PcdDxeIplSwitchToLongMode|TRUE
   gEfiMdeModulePkgTokenSpaceGuid.PcdConOutGopSupport|TRUE
