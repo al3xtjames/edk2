@@ -81,9 +81,6 @@ CommandInit(
   CHAR8                           *PlatformLang;
 
   GetEfiGlobalVariable2 (EFI_PLATFORM_LANG_VARIABLE_NAME, (VOID**)&PlatformLang, NULL);
-  if (PlatformLang == NULL) {
-    return EFI_UNSUPPORTED;
-  }
 
   if (gUnicodeCollation == NULL) {
     Status = gBS->LocateHandleBuffer (
@@ -120,7 +117,7 @@ CommandInit(
       BestLanguage = GetBestLanguage (
                        Uc->SupportedLanguages,
                        FALSE,
-                       PlatformLang,
+                       ((PlatformLang != NULL) ? PlatformLang : "en-US"),
                        NULL
                        );
       if (BestLanguage != NULL) {
@@ -132,7 +129,9 @@ CommandInit(
     if (Handles != NULL) {
       FreePool (Handles);
     }
-    FreePool (PlatformLang);
+    if (PlatformLang != NULL) {
+      FreePool (PlatformLang);
+    }
   }
 
   return (gUnicodeCollation == NULL) ? EFI_UNSUPPORTED : EFI_SUCCESS;
