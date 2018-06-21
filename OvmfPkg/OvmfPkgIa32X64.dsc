@@ -948,4 +948,5 @@
 #
 # Apple modules
 #
+  ApfsSupportPkg/Platform/ApfsDriverLoader/ApfsDriverLoader.inf
   IntelFrameworkModulePkg/Universal/DataHubDxe/DataHubDxe.inf
