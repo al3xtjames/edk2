@@ -390,6 +390,11 @@ INF  MdeModulePkg/Universal/Variable/RuntimeDxe/VariableRuntimeDxe.inf
 INF  SecurityPkg/Tcg/Tcg2Dxe/Tcg2Dxe.inf
 !endif
 
+#
+# Apple modules
+#
+INF  IntelFrameworkModulePkg/Universal/DataHubDxe/DataHubDxe.inf
+
 ################################################################################
 
 [FV.FVMAIN_COMPACT]

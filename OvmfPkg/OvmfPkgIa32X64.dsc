@@ -944,3 +944,8 @@
       NULL|SecurityPkg/Library/HashInstanceLibSha512/HashInstanceLibSha512.inf
   }
 !endif
+
+#
+# Apple modules
+#
+  IntelFrameworkModulePkg/Universal/DataHubDxe/DataHubDxe.inf
