@@ -394,6 +394,7 @@ INF  SecurityPkg/Tcg/Tcg2Dxe/Tcg2Dxe.inf
 # Apple modules
 #
 INF  ApfsSupportPkg/Platform/ApfsDriverLoader/ApfsDriverLoader.inf
+INF  OvmfPkg/ConsoleControlStub/ConsoleControlStub.inf
 INF  IntelFrameworkModulePkg/Universal/DataHubDxe/DataHubDxe.inf
 
 ################################################################################

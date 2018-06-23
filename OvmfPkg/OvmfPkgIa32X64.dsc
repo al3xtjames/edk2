@@ -949,4 +949,5 @@
 # Apple modules
 #
   ApfsSupportPkg/Platform/ApfsDriverLoader/ApfsDriverLoader.inf
+  OvmfPkg/ConsoleControlStub/ConsoleControlStub.inf
   IntelFrameworkModulePkg/Universal/DataHubDxe/DataHubDxe.inf
